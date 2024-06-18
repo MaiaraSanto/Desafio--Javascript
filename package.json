@@ -1,0 +1,28 @@
+{
+    "name": "front-end-typescript",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "repository": "git@github.com:stackxeducacao/front-end-typescript.git",
+    "author": "Gabriel Mello <gabriel.fe.mello@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "run_code": "tsc index.ts && node index.js",
+        "desafio1": "tsc desafio1.ts && node desafio1.js",
+        "desafio2": "tsc desafio2.ts && node desafio2.js",
+        "desafio3": "tsc desafio3.ts && node desafio3.js",
+        "desafio4": "tsc desafio4.ts && node desafio4.js",
+        "desafio5": "tsc desafio5.ts && node desafio5.js",
+        "build": "tsc",
+        "postbuild": "echo 'Compilação concluída com sucesso!'"
+          },
+      
+    "dependencies": {
+        "@types/node": "^20.12.5",
+        "eslint": "8.0.0",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.7.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.4"
+    }
+}

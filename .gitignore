@@ -1,0 +1,22 @@
+# Files and modules
+
+/node_modules
+/yarn.lock
+/yarn-error.log
+
+#Compiled typescripts
+
+/desafio1.js
+desafio1.js
+/desafio2.js
+desafio2.js
+/desafio3.js
+desafio3.js
+/desafio4.js
+desafio4.js
+/desafio5.js
+desafio5.js
+/index.js
+index.js
+
+/types/validateTypes.js
